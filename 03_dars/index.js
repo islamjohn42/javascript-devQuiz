@@ -6,3 +6,7 @@ const ageString = String(age); // "23"
 const ageTemplateString = `${age}`
 console.log(typeof ageString, typeof boolString,ageString, boolString);
 console.log(typeof ageTemplateString);
+
+const none = null;
+const noneString = `${none}` // === "null"
+
