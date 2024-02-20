@@ -10,3 +10,13 @@ console.log(typeof ageTemplateString);
 const none = null;
 const noneString = `${none}` // === "null"
 
+
+//! Number
+
+const currentYear = "2024";
+const numberYear = Number(currentYear)
+console.log(typeof currentYear, typeof numberYear);
+const parseNumber = Number.parseInt(currentYear); // === Number.parseFloat()
+console.log(typeof parseNumber);
+const unaryNumber = +currentYear;
+console.log(typeof unaryNumber);
