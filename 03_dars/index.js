@@ -20,3 +20,8 @@ const parseNumber = Number.parseInt(currentYear); // === Number.parseFloat()
 console.log(typeof parseNumber);
 const unaryNumber = +currentYear;
 console.log(typeof unaryNumber);
+
+//! Boolean
+const month = "Feb"
+console.log(Boolean(month), !month, !! month);
+//! Falsy values = 0, "", null, undefined, NaN
