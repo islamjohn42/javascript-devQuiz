@@ -1,0 +1,23 @@
+{
+  "name": "00-dev-quiz",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "show": "node ./06_dars/add.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islamjohn42/javascript-devQuiz.git"
+  },
+  "author": "Islomjohn42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/islamjohn42/javascript-devQuiz/issues"
+  },
+  "homepage": "https://github.com/islamjohn42/javascript-devQuiz#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
