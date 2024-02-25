@@ -34,3 +34,7 @@ function getGreeting(message) {
 }
 const getGreetingFn = getGreeting
 getGreetingFn("expression")
+
+//===================
+const getCode = new Function('a, b, ...arg', "return a + b + arg.length")
+console.log(getCode(5, 6, 8, 10, 8));
